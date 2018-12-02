@@ -1,0 +1,52 @@
+$breakpoint-xs: 0px;
+$breakpoint-sm: 320px;
+$breakpoint-md: 640px;
+$breakpoint-lg: 980px;
+$breakpoint-xl: 1024px;
+$breakpoint-xxl:2000px;
+
+// Colores
+$texto1:#9282a0;
+// Mismo que el fonf¿do del final
+$tNavegacion:#ebebeb;
+$navegacion:#373c3f;
+$menu:#202529; 
+$degradado1:#19b4c6;
+$degradado2:#078aa4;
+$negro1:#27212c;
+$rosado:#bc3183;
+$morado:#5b0fa1;
+$tituloS:#088ca5;
+$texto2:#515151;
+$blanco1:#ffffff;
+// Correo tiene una opacidad de 50
+$blanco:rgba(255, 255, 255, 0.5); 
+
+// Medida General
+$fzparem:16px;
+
+// Medidas Movile 
+$aTitulo:17px;
+$correo:10px;
+$nTitulo:12px;
+$titulo1:14px;
+
+//Medidas Phone
+$tituloN:17px;
+$tituloA:30px;
+$correo2:17px;
+$titulo2:21px;
+
+// Medidas Tablet
+$tiTuloN:11px;
+$tiTuloA:34px;
+$correo3:24px;
+
+// Medidas Laptop
+$tiTuLoA:45px;
+$correo4:20px;
+
+// Medidad Desktop
+$menu2:20px;
+$tituloa:60px;
+$correo5:35px;
