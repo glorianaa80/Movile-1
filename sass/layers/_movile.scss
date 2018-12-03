@@ -1,0 +1,104 @@
+// Navegacion 
+.navegation{
+    background-color: $navegacion;
+}
+.tNavegador{
+    margin: 0;
+    padding: 3%;
+    display: inline-block;
+    color: $tNavegacion;
+    font-size:4vw;
+}  
+.menu{
+    display: none;
+}
+.logo{
+    width: 10%;
+    padding: 1.7%;
+    padding-right: 0;
+    background-color: $menu;
+    float: right;
+}
+.logoMenu{
+    width: 76%;
+}
+// Banner
+.degradado{
+    margin: 0;
+    background-image: linear-gradient(to bottom right, $degradado1, $degradado2);
+     padding-bottom: 30%;
+}
+.principal{
+    width: 81%;
+    color: $blanco1;
+    font-size: 6vw;
+    margin: 0;
+    padding: 23% 6.8% 2% 7.5%;
+}
+.correo{
+    text-decoration: none;
+    color: $blanco;
+    padding-left: 7.5%;
+    font-size: 4vw;
+}
+.flechas{
+    display: inline;
+    padding-left: 2%;
+}
+.flecha1{
+    width: 4%;
+}
+// Text Box
+.morado{
+    background-color: $negro1;
+    color: $texto1;
+    font-size: 3vw;
+}
+.texto1{
+    margin: 0;
+    padding: 6% 0 6% 3.5%;
+    display: inline-block;
+}
+.flecha{
+    padding: 6%;
+    background-color: $rosado;
+    float: right;
+}
+.flecha2{
+    width: 10px;
+}
+// Imagenes
+.flecha3{
+    width: 100%;
+}
+.foto1{
+    padding: 39% 44% 39%  49%;
+    width: 7%;
+    background-color: $morado;
+    margin: 0;
+}
+.img2{
+    width: 100%;
+    margin: 0;
+}
+// Final
+.fFinal{
+    background-color: $tNavegacion;
+}
+.tituloS{
+    color: $tituloS;
+    font-size: 5vw;
+    padding: 12%;
+    margin: 0;
+}
+.texto2{
+    color:$texto2;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-right:12%; 
+    margin: 0;
+    font-size: 4vw;
+}
+.texto3{
+    display: none;
+}
