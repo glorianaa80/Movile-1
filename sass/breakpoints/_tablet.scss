@@ -1,33 +1,33 @@
 @media(min-width:$breakpoint-lg){
-    // Navagacion
-    #navegacion{
-        .navegation{
-            background-color: $navegacion;
-        }
-        .tNavegador{
-            // margin: 0;
-            // padding: 3%;
-            display: none;
-            color: $tNavegacion;
-            // font-size: $tituloN / $fzparem + rem;
-        }  
-        .menu{
-            display: block;
-        }
-        .logo{
-            height: 20px;
-            width: 31px;
-            padding: 3%;
-            padding-right: 0;
-            background-color: $menu;
-            float: right;
-        }
-        .logoMenu{
-            width: 73%;
-        }
-} 
-//Banner
-#banner{
+    .navegation{
+        background-color: $navegacion;
+    }
+    .tNavegador{
+        display: none;
+    }  
+    .menu{
+        padding: 2%;
+        margin: 0;
+    }
+    .menu li{
+        display: inline;
+    }
+    .menu li + li{
+        margin-left: 1%;
+    }
+    .menu a{
+        color: $tNavegacion;
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .logo{
+        display: none;
+    }
+    .logoMenu{
+        display: none;
+    }
+    // Banner
     .degradado{
         margin: 0;
         background-image: linear-gradient(to bottom right, $degradado1, $degradado2);
@@ -36,7 +36,7 @@
     .principal{
         width: 81%;
         color: $blanco1;
-        font-size: $aTitulo / $fzparem + rem;
+        font-size: 6vw;
         margin: 0;
         padding: 23% 6.8% 2% 7.5%;
     }
@@ -44,86 +44,88 @@
         text-decoration: none;
         color: $blanco;
         padding-left: 7.5%;
-        font-size: $correo / $fzparem + rem;
+        font-size: 4vw;
     }
     .flechas{
-        float: right;
-        padding-right: 31%;
+        display: inline;
+        padding-left: 2%;
     }
     .flecha1{
-        width: 8px;
+        width: 4%;
     }
-}
-//Text Box
-#text-box{
+    // Text Box
     .morado{
         background-color: $negro1;
         color: $texto1;
-        font-size: $correo / $fzparem + rem;
+        font-size: 3vw;
     }
     .texto1{
         margin: 0;
-        padding: 35px 0 35px 25px;
+        padding: 6% 0 6% 3.5%;
         display: inline-block;
     }
     .flecha{
-        padding: 34.5px;
+        padding: 6%;
         background-color: $rosado;
         float: right;
     }
     .flecha2{
         width: 10px;
     }
-}
-//Imagenes
-#imagenes{
+    // Imagenes
     .flecha3{
-        width: 20px;
+        padding-bottom: 170%;
+        width: 50%;
     }
     .foto1{
-        padding: 120px 135px 120px  150px;
-        width: 20px;
+        padding: 13% 11% 0%  15%;
+        width: 7%;
         background-color: $morado;
         margin: 0;
-    }
-    .img1{
-        width: 305px;
-        margin: 0;
-    }
-    .img2{
-        display:none;
-    }
-    .img3{
-        display:none;
-    }
-    .img4{
-        display:none;
-    }
-    .foto{
         display: inline-block;
     }
-}
-//Final
-#final{
+    .foto{
+        display: inline;
+    }
+    .img2{
+        width: 33%;
+        margin: 0;
+        display: inline;
+    }
+    // Final
     .fFinal{
         background-color: $tNavegacion;
     }
     .tituloS{
         color: $tituloS;
-        font-size: $titulo1 / $fzparem + rem;
-        padding: 35px;
+        font-size: 3vw;
+        padding: 4%;
         margin: 0;
+    }
+    .cuadro{
+        display: inline;
+    }
+    .cuadro2{
+        display: inline;
     }
     .texto2{
+        display: inline-block;
+        width: 40%;
         color:$texto2;
-        padding-left: 30px;
-        padding-bottom: 30px;
-        padding-right:35px; 
+        padding-left: 4%;
+        padding-bottom: 5%;
+        padding-right:4%; 
         margin: 0;
-        font-size: $correo / $fzparem + rem;
+        font-size: 2vw;
     }
     .texto3{
-        display: none;
-    }
-}
+        display: inline-block;
+        width: 40%;
+        color:$texto2;
+        padding-left: 4%;
+        padding-bottom: 5%;
+        padding-right:4%; 
+        margin: 0;
+        font-size: 2vw;
+    } 
 }
