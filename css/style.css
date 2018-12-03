@@ -13,13 +13,13 @@
 
 .logo {
   width: 10%;
-  padding: 1.7%;
+  padding: 1.6%;
   padding-right: 0;
   background-color: #202529;
   float: right; }
 
 .logoMenu {
-  width: 76%; }
+  width: 73%; }
 
 .degradado {
   margin: 0;
@@ -98,97 +98,138 @@
   display: none; }
 
 @media (min-width: 980px) {
-  #navegacion .navegation {
+  .navegation {
     background-color: #373c3f; }
-  #navegacion .tNavegador {
-    display: none;
-    color: #ebebeb; }
-  #navegacion .menu {
-    display: block; }
-  #navegacion .logo {
-    height: 20px;
-    width: 31px;
-    padding: 3%;
-    padding-right: 0;
-    background-color: #202529;
-    float: right; }
-  #navegacion .logoMenu {
-    width: 73%; }
 
-  #banner .degradado {
+  .tNavegador {
+    display: none; }
+
+  .menu {
+    padding: 2%;
+    margin: 0; }
+
+  .menu li {
+    display: inline; }
+
+  .menu li + li {
+    margin-left: 1%; }
+
+  .menu a {
+    color: #ebebeb;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+  .logo {
+    display: none; }
+
+  .logoMenu {
+    display: none; }
+
+  .degradado {
     margin: 0;
     background-image: linear-gradient(to bottom right, #19b4c6, #078aa4);
     padding-bottom: 30%; }
-  #banner .principal {
+
+  .principal {
     width: 81%;
     color: #ffffff;
-    font-size: 1.0625rem;
+    font-size: 6vw;
     margin: 0;
     padding: 23% 6.8% 2% 7.5%; }
-  #banner .correo {
+
+  .correo {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
     padding-left: 7.5%;
-    font-size: 0.625rem; }
-  #banner .flechas {
-    float: right;
-    padding-right: 31%; }
-  #banner .flecha1 {
-    width: 8px; }
+    font-size: 4vw; }
 
-  #text-box .morado {
+  .flechas {
+    display: inline;
+    padding-left: 2%; }
+
+  .flecha1 {
+    width: 4%; }
+
+  .morado {
     background-color: #27212c;
     color: #9282a0;
-    font-size: 0.625rem; }
-  #text-box .texto1 {
+    font-size: 3vw; }
+
+  .texto1 {
     margin: 0;
-    padding: 35px 0 35px 25px;
+    padding: 6% 0 6% 3.5%;
     display: inline-block; }
-  #text-box .flecha {
-    padding: 34.5px;
+
+  .flecha {
+    padding: 6%;
     background-color: #bc3183;
     float: right; }
-  #text-box .flecha2 {
+
+  .flecha2 {
     width: 10px; }
 
-  #imagenes .flecha3 {
-    width: 20px; }
-  #imagenes .foto1 {
-    padding: 120px 135px 120px  150px;
-    width: 20px;
+  .flecha3 {
+    padding-bottom: 170%;
+    width: 50%; }
+
+  .foto1 {
+    padding: 13% 11% 0%  15%;
+    width: 7%;
     background-color: #5b0fa1;
-    margin: 0; }
-  #imagenes .img1 {
-    width: 305px;
-    margin: 0; }
-  #imagenes .img2 {
-    display: none; }
-  #imagenes .img3 {
-    display: none; }
-  #imagenes .img4 {
-    display: none; }
-  #imagenes .foto {
+    margin: 0;
     display: inline-block; }
 
-  #final .fFinal {
-    background-color: #ebebeb; }
-  #final .tituloS {
-    color: #088ca5;
-    font-size: 0.875rem;
-    padding: 35px;
-    margin: 0; }
-  #final .texto2 {
-    color: #515151;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-right: 35px;
+  .foto {
+    display: inline; }
+
+  .img2 {
+    width: 33%;
     margin: 0;
-    font-size: 0.625rem; }
-  #final .texto3 {
-    display: none; } }
+    display: inline; }
+
+  .fFinal {
+    background-color: #ebebeb; }
+
+  .tituloS {
+    color: #088ca5;
+    font-size: 3vw;
+    padding: 4%;
+    margin: 0; }
+
+  .cuadro {
+    display: inline; }
+
+  .cuadro2 {
+    display: inline; }
+
+  .texto2 {
+    display: inline-block;
+    width: 40%;
+    color: #515151;
+    padding-left: 4%;
+    padding-bottom: 5%;
+    padding-right: 4%;
+    margin: 0;
+    font-size: 2vw; }
+
+  .texto3 {
+    display: inline-block;
+    width: 40%;
+    color: #515151;
+    padding-left: 4%;
+    padding-bottom: 5%;
+    padding-right: 4%;
+    margin: 0;
+    font-size: 2vw; } }
 body {
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
 
 /*# sourceMappingURL=style.css.map */
