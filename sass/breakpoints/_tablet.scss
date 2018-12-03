@@ -1,2 +1,129 @@
 @media(min-width:$breakpoint-lg){
+    // Navagacion
+    #navegacion{
+        .navegation{
+            background-color: $navegacion;
+        }
+        .tNavegador{
+            // margin: 0;
+            // padding: 3%;
+            display: none;
+            color: $tNavegacion;
+            // font-size: $tituloN / $fzparem + rem;
+        }  
+        .menu{
+            display: block;
+        }
+        .logo{
+            height: 20px;
+            width: 31px;
+            padding: 3%;
+            padding-right: 0;
+            background-color: $menu;
+            float: right;
+        }
+        .logoMenu{
+            width: 73%;
+        }
+} 
+//Banner
+#banner{
+    .degradado{
+        margin: 0;
+        background-image: linear-gradient(to bottom right, $degradado1, $degradado2);
+         padding-bottom: 30%;
+    }
+    .principal{
+        width: 81%;
+        color: $blanco1;
+        font-size: $aTitulo / $fzparem + rem;
+        margin: 0;
+        padding: 23% 6.8% 2% 7.5%;
+    }
+    .correo{
+        text-decoration: none;
+        color: $blanco;
+        padding-left: 7.5%;
+        font-size: $correo / $fzparem + rem;
+    }
+    .flechas{
+        float: right;
+        padding-right: 31%;
+    }
+    .flecha1{
+        width: 8px;
+    }
+}
+//Text Box
+#text-box{
+    .morado{
+        background-color: $negro1;
+        color: $texto1;
+        font-size: $correo / $fzparem + rem;
+    }
+    .texto1{
+        margin: 0;
+        padding: 35px 0 35px 25px;
+        display: inline-block;
+    }
+    .flecha{
+        padding: 34.5px;
+        background-color: $rosado;
+        float: right;
+    }
+    .flecha2{
+        width: 10px;
+    }
+}
+//Imagenes
+#imagenes{
+    .flecha3{
+        width: 20px;
+    }
+    .foto1{
+        padding: 120px 135px 120px  150px;
+        width: 20px;
+        background-color: $morado;
+        margin: 0;
+    }
+    .img1{
+        width: 305px;
+        margin: 0;
+    }
+    .img2{
+        display:none;
+    }
+    .img3{
+        display:none;
+    }
+    .img4{
+        display:none;
+    }
+    .foto{
+        display: inline-block;
+    }
+}
+//Final
+#final{
+    .fFinal{
+        background-color: $tNavegacion;
+    }
+    .tituloS{
+        color: $tituloS;
+        font-size: $titulo1 / $fzparem + rem;
+        padding: 35px;
+        margin: 0;
+    }
+    .texto2{
+        color:$texto2;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-right:35px; 
+        margin: 0;
+        font-size: $correo / $fzparem + rem;
+    }
+    .texto3{
+        display: none;
+    }
+}
 }
